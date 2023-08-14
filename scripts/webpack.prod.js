@@ -4,5 +4,5 @@ const CssMinimizerWebpackPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = merge(base, {
     mode: 'production',
-    plugins: [new CssMinimizerWebpackPlugin()],
+    plugins: [new CssMinimizerWebpackPlugin()]
 });

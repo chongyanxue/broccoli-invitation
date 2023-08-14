@@ -13,5 +13,6 @@ function Header({title}) {
 
 Header.propTypes = {
     title: PropTypes.string
-}
+};
+
 export default Header;

@@ -27,7 +27,7 @@ function InviteModal({isShow, onClose}) {
             && isValidConfirmEmail(email, confirmEmail)) {
             requestData();
         }
-    }
+    };
 
     const requestData = () => {
         // Reset loading status and err for a new request.
@@ -61,7 +61,7 @@ function InviteModal({isShow, onClose}) {
                 setLoading(false);
                 setErrFromServer('Connection failed');
             });
-    }
+    };
 
     const resetForm = () => {
         setFullName('');

@@ -23,6 +23,6 @@ function Content({openInviteModal}) {
 
 Content.propTypes = {
     openInviteModal: PropTypes.func
-}
+};
 
 export default Content;
