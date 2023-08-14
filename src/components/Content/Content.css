@@ -1,0 +1,32 @@
+.page-content .slogan .block {
+    color: #3a2d2d;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+}
+
+.page-content .slogan p {
+    color: #afa69e;
+}
+
+.page-content .invite {
+    margin-top: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-content .invite button {
+    border: 1px solid #000;
+    padding: 5px 20px;
+    height: 40px;
+    background: transparent;
+    transition: all 0.3s ease-out;
+    color: #625f5a;
+}
+
+.page-content .invite button:hover {
+    cursor: pointer;
+    box-shadow: 14px 18px 99px 6px #eddac2;
+}

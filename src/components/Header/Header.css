@@ -1,0 +1,8 @@
+.page-header {
+    position: sticky;
+    border-bottom: 1px solid #eee;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
